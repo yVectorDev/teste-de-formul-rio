@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="logo3.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://kit.fontawesome.com/d9cfdf4d58.js" crossorigin="anonymous"></script>
+
+<!--puxando a fonte-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
+    <title>teste de formulário</title>
+</head>
+<body>
+    <!-- Header/Cabeçalho -->
+    <div class="bg-home">
+        <header>
+            <nav class="header-content container">
+                <div class="header-icons" data-aos="fade-right" data-aos-delay="300" data-aos-duration="1500">
+                    <!--<a href="#">
+                        <i class="fa-brands fa-instagram fa-2x"></i>
+                    </a>-->
+                    <a href="#" target="_blank">
+                        <i class="fa-brands fa-whatsapp fa-2x"></i>
+                    </a>
+                </div>
+
+                <div class="header-logo" data-aos="fade-down" data-aos-delay="300">
+                    <a href="index.html"><img src="logo.png" alt="Logo"></a>
+                </div>
+
+                <div data-aos="fade-left" data-aos-delay="300" data-aos-duration="1500">
+                    <a class="header-button" href="#">
+                        Contato
+                    </a>
+                </div>
+
+            </nav>
+
+    <section class="about">
+        <div class="container about-content">
+            <form action="https://formsubmit.co/vectorcont@gmail.com" method="POST">
+
+                <input type="text" name="name-empresa" placeholder="Nome da empresa">
+
+                <input type="text" name="name-contato" placeholder="Nome do contato">
+
+                <input type="email" name="email" placeholder="Digite seu e-mail">
+
+                <input type="text" name="name-telefone" placeholder="Telefone">
+
+                <textarea cols="30" rows="10" name="mensage" placeholder="Digite sua mensagem" required></textarea>
+
+                <button type="submit"><strong>Enviar</strong></button>
+
+                <input type="hidden" name="_subject" value="Novo Contato Do Site!">
+
+                <input type="text" name="_honey" style="display: none;">
+
+                <input type="hidden" name="_captcha" value="false"></inpu>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <nav class="nav-footer container">        
+        <div class="footer-logo">
+            <img src="logo.png" alt="Logo">
+        </div>
+        </nav>
+
+    </footer>
+    <p id="copyright">Copyright 2024 - Todos Direitos Reservados.</p>
+
+    <script src="jason.js"></script>
+</body>
+</html>
